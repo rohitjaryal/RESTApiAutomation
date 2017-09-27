@@ -1,0 +1,157 @@
+<html><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" href="css/default.css">
+	
+<script src="assets/canvasjs.min.js"></script>
+<script type="text/javascript">
+window.onload = function () {
+	var chart = new CanvasJS.Chart("chartContainer",
+	{
+		theme: "theme2",
+		title:{
+			text: ""
+		},
+		data: [
+		{
+			type: "pie",
+			showInLegend: true,
+			toolTipContent: "#percent %",
+			yValueFormatString: "",
+			legendText: "{indexLabel}",
+			dataPoints: [
+				{  y: @passPercentage, indexLabel: "Passed" },
+				{  y: @failPercentage, indexLabel: "Failed" }
+			]
+		}
+		]
+	});
+	chart.render();
+}
+	</script> 
+</head> 
+
+<body>
+
+
+	<!-- Application Header starts Here -->
+	<header id="header" class="">
+		<div class="container">
+			<div class="row main">
+				<div class="col-md-12 dpTable">
+					<div class="leftPane">
+						<a href="dashboard.html" class="logo"><img src="images/logo.png" alt=""></a>
+						<nav class="dpInBLock topmenu">
+							<!--<a class="active" href="#">Link</a> -->
+							<!--<a href="#">Link</a> -->
+							<!-- <a href="#">Link</a> -->
+						</nav>
+					</div>		
+					<div class="rightPane">
+						<nav class="dpInBLock auth">
+							<!--<a href="#">Logout</a> -->
+							<!--<a href="#">Help?</a> -->
+						</nav>		
+					</div>	
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="hdcvr"></div>
+	<!-- Application Header Ends Here -->
+
+	<!-- Application Content starts Here -->
+	<div class="containerwrap">
+		<div class="container ">
+			<div class="clear30"></div>
+			<div class="row">
+				<div class="col-md-12 headpart">
+					<h2 class="f24 tcenter">REST API automation dashboard</h2>
+					
+					<!--<p class="f13 tcenter">Time Taken for Executing below Test Cases: <b>@totalTimeTakenLastRun</b></p> -->
+					<p class="f13 tcenter">Current Run Number: <b>Run @lastRunNumber</b></p>
+					<hr>
+				</div>
+			</div>
+			<div class="clear10"></div>			
+		</div>
+	</div>
+
+	<div class="clear30"></div>
+
+	<!-- Summary Block starts here -->
+	<div class="containerwrap summblk">
+		<div class="container ">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-md-12">							
+							<table class="table table-bordered tleft">
+								<thead>
+									<tr>
+										<th colspan="2">Summary of last execution</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="greybg">Execution Date</td>
+										<td>@executionDate</td>										
+									</tr>
+									<tr>
+										<td class="greybg">Total test Cases</td>
+										<td>@totalTestCases</td>										
+									</tr>
+									<tr>
+										<td class="greybg">Passed</td>
+										<td>@totalPassed</td>	
+									</tr>
+									<tr>
+										<td class="greybg">Failed</td>
+										<td>@totalFailed</td>	
+									</tr>
+								</tbody>
+							</table>
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="block wthBorder" id="chartContainer" style="height: 200px; width: 100%;"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Summary  Block ends here -->
+
+	<div class="clear30"></div>			
+
+	<div class="containerwrap">
+		<div class="container ">
+			<div class="row">
+				<div class="col-md-12">
+						<table class="table table-bordered tleft">
+						<thead>
+							<tr>
+								<th width="15%">Date Time</th>
+								<th width="60%">Modules</th>
+								<th>Environment</th>
+								<th>Pass Percentage</th>
+								
+							</tr>
+						</thead>
+						<tbody>@previousRunList</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clear20"></div>	
+
+	<!-- Application Content ends Here -->
+		<!-- Footer section starts here -->
+	<footer> </footer>
+	<!-- Footer section starts here -->
+
+</body></html>

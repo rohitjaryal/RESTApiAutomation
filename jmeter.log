@@ -1,0 +1,89 @@
+2017/05/29 17:50:04 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_IN 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: Loading user properties from: D:\RohitJ\Dump\workspace\RESTApiAutomation\Resources\apache-jmeter-3.0\bin\user.properties 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: Loading system properties from: D:\RohitJ\Dump\workspace\RESTApiAutomation\Resources\apache-jmeter-3.0\bin\system.properties 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: Setting JMeter property: jmeter.save.saveservice.output_format=xml 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: Setting JMeter property: jmeter.save.saveservice.assertion_results=all 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: Setting JMeter property: jmeter.save.saveservice.response_code=true 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: Setting JMeter property: jmeter.save.saveservice.response_data=true 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: Setting JMeter property: jmeter.save.saveservice.response_message=true 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: Setting JMeter property: jmeter.save.saveservice.subresults=true 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: Setting JMeter property: jmeter.save.saveservice.assertions=true 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: Setting JMeter property: jmeter.save.saveservice.samplerData=true 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: Setting JMeter property: jmeter.save.saveservice.responseHeaders=true 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: Setting JMeter property: jmeter.save.saveservice.requestHeaders=true 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: Setting JMeter property: jmeter.save.saveservice.url=true 
+2017/05/29 17:50:04 WARN  - jmeter.JMeter: Can't find additional property file: D:\RohitJ\Dump\workspace\RESTApiAutomation\Resources/JMX_Modules/properties/automation_staging.properties java.io.FileNotFoundException: D:\RohitJ\Dump\workspace\RESTApiAutomation\Resources\JMX_Modules\properties\automation_staging.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.apache.jmeter.JMeter.initializeProperties(JMeter.java:750)
+	at org.apache.jmeter.JMeter.start(JMeter.java:385)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:259)
+
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: Setting JMeter property: resourceDir=D:\RohitJ\Dump\workspace\RESTApiAutomation\Resources/ 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: Setting JMeter property: baseUrl=jsonplaceholder.typicode.com 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: Setting JMeter property: email=abc@abc.com 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: Setting JMeter property: pwd=xyz21344 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: Version 3.0 r1743807 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: java.version=1.8.0_111 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: os.name=Windows 8.1 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: os.arch=amd64 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: os.version=6.3 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: file.encoding=Cp1252 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: Max memory     =523763712 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: Available Processors =4 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: Default Locale=English (India) 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: JMeter  Locale=English (India) 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: JMeterHome=D:\RohitJ\Dump\workspace\RESTApiAutomation\Resources\apache-jmeter-3.0 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: user.dir  =D:\RohitJ\Dump\workspace\RESTApiAutomation 
+2017/05/29 17:50:04 INFO  - jmeter.JMeter: PWD       =D:\RohitJ\Dump\workspace\RESTApiAutomation 
+2017/05/29 17:50:09 INFO  - jmeter.JMeter: IP: 192.168.2.2 Name: MBK-TECH-232 FullName: MBK-TECH-232.MobiKwik.com 
+2017/05/29 17:50:09 INFO  - jmeter.services.FileServer: Default base='D:\RohitJ\Dump\workspace\RESTApiAutomation' 
+2017/05/29 17:50:09 INFO  - jmeter.services.FileServer: Set new base='D:\RohitJ\Dump\workspace\RESTApiAutomation\Resources\JMX_Modules\login' 
+2017/05/29 17:50:10 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2017/05/29 17:50:10 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2017/05/29 17:50:10 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.9 
+2017/05/29 17:50:10 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2017/05/29 17:50:10 INFO  - jmeter.save.SaveService: Loading file: D:\RohitJ\Dump\workspace\RESTApiAutomation\Resources\JMX_Modules\login\loginTest.jmx 
+2017/05/29 17:50:10 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/05/29 17:50:10 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/05/29 17:50:10 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/05/29 17:50:10 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/05/29 17:50:10 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2017/05/29 17:50:10 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
+2017/05/29 17:50:10 INFO  - jmeter.JMeter: Creating summariser <summary> 
+2017/05/29 17:50:10 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2017/05/29 17:50:10 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2017/05/29 17:50:10 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2017/05/29 17:50:10 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2017/05/29 17:50:10 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2017/05/29 17:50:11 INFO  - jmeter.JMeter: Running test (1496060411421) 
+2017/05/29 17:50:11 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Login Thread 
+2017/05/29 17:50:11 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Login Thread. 
+2017/05/29 17:50:11 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/05/29 17:50:11 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2017/05/29 17:50:11 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2017/05/29 17:50:11 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2017/05/29 17:50:11 INFO  - jmeter.threads.JMeterThread: Thread started: Login Thread 1-1 
+2017/05/29 17:50:11 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = MBK-TECH-232 
+2017/05/29 17:50:11 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
+2017/05/29 17:50:11 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2017/05/29 17:50:11 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2017/05/29 17:50:11 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2017/05/29 17:50:11 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2017/05/29 17:50:12 INFO  - jmeter.protocol.http.sampler.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory 
+2017/05/29 17:50:12 INFO  - jmeter.util.JsseSSLManager: Using default SSL protocol: TLS 
+2017/05/29 17:50:12 INFO  - jmeter.util.JsseSSLManager: SSL session context: per-thread 
+2017/05/29 17:50:13 INFO  - jmeter.util.SSLManager: JmeterKeyStore Location:  type JKS 
+2017/05/29 17:50:13 INFO  - jmeter.util.SSLManager: KeyStore created OK 
+2017/05/29 17:50:13 WARN  - jmeter.util.SSLManager: Keystore file not found, loading empty keystore 
+2017/05/29 17:50:17 INFO  - jmeter.threads.JMeterThread: Thread is done: Login Thread 1-1 
+2017/05/29 17:50:17 INFO  - jmeter.threads.JMeterThread: Thread finished: Login Thread 1-1 
+2017/05/29 17:50:17 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2017/05/29 17:50:17 INFO  - jmeter.reporters.Summariser: summary =      1 in 00:00:06 =    0.2/s Avg:  5206 Min:  5206 Max:  5206 Err:     0 (0.00%) 

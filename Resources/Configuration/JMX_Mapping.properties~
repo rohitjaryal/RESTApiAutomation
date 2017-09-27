@@ -1,0 +1,22 @@
+# This file will be used to point to correct JMX File with module
+#sanity=sanity/sanityTesting_forTrial.jmx
+sanity=sanity/sanityTestingBeta.jmx
+addMoney=addMoney/Add_deleteCard.jmx
+busTicketing=busTicketing/busTicketing.jmx
+cashDeposit=cashDeposit/cashDeposit.jmx
+cashPickup=cashPickup/CashPickupNew.jmx
+couponsNew=Coupon_new/couponSanityStaging.jmx
+coupons=coupons/coupons.jmx
+imps=imps/impsSanity.jmx
+kwikMoney=kwikMoney/kwikMoney.jmx
+kyc=kyc/KycSanity.jmx
+loyaltyRewardz=loyaltyRewardz/loyaltyRewardz.jmx
+p2p=p2p/p2pSanity.jmx
+p2pFunctional=p2p/p2pSanityFunctional.jmx
+partnerWallet=partnerWallet/partnerWallet.jmx
+payback=payback/payback.jmx
+userProfile=userProfile/userProfile.jmx
+onboard=onBoard/OnboardingFlow.jmx
+voucher=vouchers/Voucher.jmx
+billSplit=billSplit/Bill_Split_Usecase.jmx
+txnSecurityPin=miscApis/TransactionSecurityViaPIN.jmx
