@@ -1,7 +1,8 @@
 # RESTApiAutomation
 Using Jmeter automating the REST API.
 
-Steps to start with
+Steps to start with: -
+
 1 git clone https://github.com/rohitjaryal/RESTApiAutomation.git
 2 Setup project using Eclipse/Intellij.
 3 Maven Goals clean verify exec:java.'exec:java' is used as we are running the executable Jar file which is created by project.
